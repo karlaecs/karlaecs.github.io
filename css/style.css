@@ -25,7 +25,6 @@ body {
 
 /* Start About me */
 #about-me {
-  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -49,7 +48,7 @@ body {
 }
 
 #avatar {
-  background-image: url("./images/me.png");
+  background-image: url("../images/me.png");
   width: var(--avatar-size);
   height: var(--avatar-size);
   background-size: cover;
@@ -83,7 +82,7 @@ footer {
 }
 
 #github {
-  background-image: url("./images/github-white.jpeg");
+  background-image: url("../images/github-white.jpeg");
   width: var(--icon-size);
   height: var(--icon-size);
   background-size: cover;
@@ -91,7 +90,7 @@ footer {
 }
 
 #linkedin {
-  background-image: url("./images/linkedin-white.jpeg");
+  background-image: url("../images/linkedin-white.jpeg");
   width: var(--icon-size);
   height: var(--icon-size);
   background-size: cover;
@@ -99,9 +98,9 @@ footer {
 }
 
 #instagram {
-  background-image: url("./images/instagram-white.png");
+  background-image: url("../images/instagram-white.png");
   width: var(--icon-size);
   height: var(--icon-size);
-  background-size: cover;
+  background-size: contain;
   border-radius: 50%;
 }
