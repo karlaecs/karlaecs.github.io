@@ -1,0 +1,17 @@
+@media (max-width: 480px) {
+  #content {
+    align-items: flex-end;
+  }
+
+  #personal {
+    align-self: stretch;
+  }
+
+  .typewriter p {
+    text-align: left;
+  }
+
+  #about-me {
+    padding: 20px;
+  }
+}
