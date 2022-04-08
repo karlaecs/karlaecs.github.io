@@ -1,0 +1,106 @@
+:root {
+  --main-blue-color: #366be4;
+  --main-white-color: #f0f0f0;
+  --avatar-size: 170px;
+  --icon-size: 35px;
+  --footer-height: 150px;
+}
+
+/* @TODO add responsiveness  */
+
+body {
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Start About me */
+#about-me {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#about-me > * {
+  margin: 0;
+}
+
+#about-me h1 {
+  font-family: Raleway, sans-serif;
+  color: var(--main-white-color);
+  font-weight: 700;
+  font-size: 60px;
+}
+
+#about-me p {
+  font-family: Poppins, sans-serif;
+  color: var(--main-blue-color);
+  font-size: 30px;
+  margin: -10px;
+}
+
+#avatar {
+  background-image: url("./images/me.png");
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#divider {
+  background: var(--main-blue-color);
+  height: 16px;
+  display: inline-block;
+}
+/* End About me */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: var(--main-white-color);
+  height: var(--footer-height);
+  border-top: 4px solid var(--main-blue-color);
+  background: linear-gradient(15deg, #3a3d40 0%, var(--main-blue-color) 60%);
+}
+
+#github {
+  background-image: url("./images/github-white.jpeg");
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#linkedin {
+  background-image: url("./images/linkedin-white.jpeg");
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#instagram {
+  background-image: url("./images/instagram-white.png");
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-size: cover;
+  border-radius: 50%;
+}
